@@ -1,19 +1,14 @@
-\documentclass{jsreport}
+\documentclass[a4j,12pt]{jsreport}
+\usepackage{klisthesis}
 
-
-
-%%%% 以下は各自の題目・個人情報に従って置き換えること
-
-\newcommand{\thesisyear}{20XX年3月} % 卒業する年月を設定
-\newcommand{\thesistitle}{知識情報における図書館の役割に関する研究}
-\newcommand{\thesisuserid}{20XX11ABC} % 学籍番号
-\newcommand{\thesisauthor}{知識 太朗} % 氏名
-\newcommand{\instname}{筑波大学情報学群\\知識情報・図書館学類}
+%%%% 以下は各自の題目・個人情報に置き換えること
+\title{知識情報における図書館の役割に関する研究}
+\author{知識 太郎} % 氏名
+\date{20XX年3月} % 卒業する年月
+\newcommand{\userid}{201012345} % 学籍番号
 
 \begin{document}
-\thispagestyle{empty}
-\input{cover.tex}
-
+\maketitle
 \tableofcontents
 
 \input{chapter1.tex}
