@@ -2,3 +2,10 @@
 *.log
 *.dvi
 *.toc
+*.blg
+*.loc
+*.lof
+*.lot
+*.bbl
+*.fls
+*.fdb_latexmk
